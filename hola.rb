@@ -1,0 +1,3 @@
+puts "Hola mundo"
+
+gets()
