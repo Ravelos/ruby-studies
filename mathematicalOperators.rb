@@ -6,11 +6,13 @@ class ArithmethicOperations
       substraction = 3-2
       multiplication = 3*3
       division = 3/2
+      exponent = 2**3
 
       puts addition
       puts substraction
       puts multiplication
       puts division
+      puts exponent
     end
 end
 
