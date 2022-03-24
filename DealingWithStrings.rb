@@ -1,12 +1,12 @@
 class DealingWithStrings
     def initialize()
     end
-    def operations()
-        result = 2+3
-        prints "The result of this addition is = #{result}"
+    def showString()
+        result = 2 + 3
+        print "The result of this addition is = #{result} "
     end
 end
 
 object = DealingWithStrings.new()
-object.operations
+object.showString
 gets()
