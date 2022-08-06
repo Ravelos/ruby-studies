@@ -8,4 +8,4 @@ age2 = age + 1.to_s
 puts "Next year you'll turn #{age2}" # This shows the number x1
 
 age3 = age.to_i + 1
-puts "Next year you'll turn #{age3}"
+puts "Next year you'll turn #{age3}" # This one shows the real addition
