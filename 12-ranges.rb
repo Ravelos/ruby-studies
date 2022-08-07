@@ -12,3 +12,12 @@ puts "With three points it doesn't include the last element"
 (1..5).each {|x| puts x} # With two points it includes the last element
 
 puts "With two points it includes the last element"
+
+
+#Using times function
+puts "Now, we are using times function"
+5.times {puts "Oswaldo"}
+
+puts "Times with a counter"
+
+5.times {|x| puts "#{x} - Raul"}
