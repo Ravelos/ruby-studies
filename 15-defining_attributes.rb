@@ -2,21 +2,33 @@ class Person
     @age = nil
     @name = nil
 
-    def name= (name)
-        @name = name
-    end
+=begin
+Instead of ussing getter or setter and the other convention
+that is commented. It is better to use access indicators (attr.accessor)
+attr_accessor allows us to write/read the information
+attr_write just allows us save the information
+attr_reader only allows us to read the information
+This is the best practice in order to avoid repetitive code
+=end
 
-    def age= (age)
-        @age = age
-    end
+    attr_accessor :name
+    attr_accessor :age
 
-    def name
-        @name
-    end
+    # def name= (name)
+    #     @name = name
+    # end
 
-    def age
-        @age
-    end
+    # def age= (age)
+    #     @age = age
+    # end
+
+    # def name
+    #     @name
+    # end
+
+    # def age
+    #     @age
+    # end
 
 end
 
