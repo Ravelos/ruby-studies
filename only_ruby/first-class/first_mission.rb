@@ -10,7 +10,7 @@ float.class
 
 #Boolean
 boolean = false
-boolea.class
+boolean.class
 
 #String
 string = 'Raul'
@@ -63,7 +63,7 @@ print 'Type the second number'
 n2 = gets.chomp.to_i
 result = n1 + n2
 
-puts 'The addition of them is #{result}'
+puts "The addition of them is #{result}"
 
 
 
