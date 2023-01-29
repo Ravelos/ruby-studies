@@ -1,0 +1,9 @@
+version: '1'
+services:
+  ruby:
+    image: ruby:2.7.2
+    build: .
+    working_dir: /usr/app
+    command: bash - 'gem install rest-client && gem install json'
+    volumes:
+      - ./:/usr/app
