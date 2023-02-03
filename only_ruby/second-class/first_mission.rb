@@ -9,7 +9,23 @@ def choosing
     option = gets.chomp.to_i
 end
 
+def verify_options
+    if option.class = t.string
+        puts 'Type a number according to the options given: '
+        choosing()
+    end
+end
+
 def calculating
+
+    choosing()
+    verify_options()
+
+    puts 'Now type your first number:'
+    n1 = gets.chomp.to_i
+    puts 'Now type your second number:'
+    n2 = gets.chomp.to_i
+
     if option == 1
         result = n1 / n2
         puts "#{n1} divided by #{n2} is: #{result}"
@@ -25,20 +41,5 @@ def calculating
     end
 end
 
-def verify_options
-    if option.class = t.string
-        puts 'Type a number according to the options given: '
-        choosing()
-    end
-end
-choosing()
-verify_options()
-
-puts 'Now type your first number:'
-n1 = gets.chomp.to_i
-puts 'Now type your second number:'
-n2 = gets.chomp.to_i
 
 calculating()
-
-
