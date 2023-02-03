@@ -1,0 +1,1 @@
+puts 'Missao 1 - Utilizando uma collection do tipo Array, escreva um programa que receba 3 numeros e no final exiba o resultado de cada um deles elevado a segunda potencia.'
