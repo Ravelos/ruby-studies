@@ -10,7 +10,7 @@
 
 After installing docker and docker-compose, being on the root file of the project, run:
 
-docker-compose run --rm ruby bash
+`docker-compose run --rm ruby bash`
 
 
 To bring down the docker instance, run:
