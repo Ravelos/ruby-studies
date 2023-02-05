@@ -15,8 +15,8 @@ After installing docker and docker-compose, being on the root file of the projec
 
 To bring down the docker instance, run:
 
-docker-compose down
+`docker-compose down`
 
 After that choose one of the scripts to run. For example:
 
-ruby second-class/first_mission.rb
+`ruby second-class/first_mission.rb`
