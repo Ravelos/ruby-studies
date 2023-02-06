@@ -1,1 +1,1 @@
-puts 'Missao 1 - Utilizando uma collection do tipo Array, escreva um programa que receba 3 numeros e no final exiba o resultado de cada um deles elevado a segunda potencia.'
+puts 'First mission - Using an array collection, write a program that receives three numbers and at the end shows each one of them raised to the second power'

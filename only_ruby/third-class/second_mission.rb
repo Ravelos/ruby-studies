@@ -1,2 +1,2 @@
-puts 'Missao 2 - Crie uma collection do tipo Hash e permita que o usuário crie três elementos informando a chave e o valor. No final do programa para cada um desses elementos imprima a frase “Uma das chaves é **** e o seu valor é ****.'
-
+puts 'Second mission - Create a hash collection that allows the user to create three elements informing the key and value.
+At the end of the program print the following phrase for each one of those elements : "One of the keys is *** and its value is ****."'
